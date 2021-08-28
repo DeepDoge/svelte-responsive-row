@@ -1,10 +1,10 @@
 <script lang="ts">
     export let idealSize: string = "0px";
-    export let maxWidth: string = null;
+    export let maxWidth: string = "100%";
     export let gap: string = ".1em";
 </script>
 
-<div style="--ideal-size:{idealSize};--gap:{gap};{maxWidth !== null ? `--max-width:${maxWidth};` : ''}" class:withMaxWidth={maxWidth !== null}>
+<div style="--ideal-size:{idealSize};--gap:{gap};--max-width:{maxWidth}">
     <slot />
 </div>
 
@@ -16,7 +16,7 @@
         justify-items: center;
     }
 
-    .withMaxWidth > :global(*) {
+    div > :global(*) {
         max-width: var(--max-width);
     }
 </style>
