@@ -6,7 +6,7 @@
     export let justifyItems: "center" | "start" | "end" | "stretch" = "center";
 </script>
 
-<div style="--ideal-size:{idealSize};--gap:{gap};--type:auto-{type};--max-column-count:{maxColumnCount};--justify-items:{justifyItems}">
+<div style="--ideal-size:{idealSize};--gap:{gap === '0' ? '0px' : gap};--type:auto-{type};--max-column-count:{maxColumnCount};--justify-items:{justifyItems}">
     <slot />
 </div>
 
