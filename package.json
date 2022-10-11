@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "name": "svelte-responsive-row",
+  "version": "1.0.0",
+  "description": "-   A svelte component for creating a responsive row.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeepDoge/svelte-responsive-row.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DeepDoge/svelte-responsive-row/issues"
+  },
+  "homepage": "https://github.com/DeepDoge/svelte-responsive-row#readme"
+}
