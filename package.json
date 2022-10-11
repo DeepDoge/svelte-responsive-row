@@ -3,6 +3,7 @@
   "name": "svelte-responsive-row",
   "version": "1.0.0",
   "description": "-   A svelte component for creating a responsive row.",
+  "main": "index.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DeepDoge/svelte-responsive-row.git"
